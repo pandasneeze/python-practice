@@ -13,7 +13,7 @@ C++과 동일하다.
 - 키워드와 같은 이름 불가능
 
 ## 변수의 자료형 확인
->>> type(x)
+type(x)
 <class 'int'>   (x가 int형일 경우)
 <class 'float'> (x가 float형일 경우)
 <class 'str'>   (x가 문자열일 경우)
