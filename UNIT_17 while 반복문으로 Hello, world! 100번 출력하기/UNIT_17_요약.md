@@ -16,9 +16,23 @@ while 조건식:
 
 ## 난수 생성
 - random 모듈을 가져와야함
+
 `import random`
 - random.random(): 실행마다 실수 난수 생성
     * 범위 지정 가능
     `random.random(a, b)   # a에서 b까지의 난수 생성(a, b도 포함)`
 
-    
+### 참고: random.choice
+- random.choice()를 사용하면 시퀀스 객체에서 무작위로 요소 선택 가능
+
+`random.choice(시퀀스 객체)`
+- 예시:
+```
+python 
+
+import random
+
+dice = [1, 2, 3, 4, 5, 6]
+print(random.choice(dice))
+```
+결과: 3
