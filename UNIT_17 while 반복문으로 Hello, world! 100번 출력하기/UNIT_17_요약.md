@@ -18,8 +18,9 @@ while 조건식:
 - random 모듈을 가져와야함
 
 `import random`
-- random.random(): 실행마다 실수 난수 생성
+- `random.random()`: 실행마다 실수 난수 생성
     * 범위 지정 가능
+      
     `random.random(a, b)   # a에서 b까지의 난수 생성(a, b도 포함)`
 
 ### 참고: random.choice
