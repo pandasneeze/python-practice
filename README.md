@@ -21,7 +21,7 @@
 - [x] elif를 사용하여 여러 방향으로 분기하기
 - [x] for 반복문으로 Hello, world! 100번 출력하기
 - [x] while 반복문으로 Hello, world! 100번 출력하기
-- [ ] break, continue로 반복문 제어하기
+- [x] break, continue로 반복문 제어하기
 - [ ] 계단식으로 별 출력하기
 - [ ] FizzBuzz 문제
 - [ ] 터틀 그래픽스로 그림 그리기
