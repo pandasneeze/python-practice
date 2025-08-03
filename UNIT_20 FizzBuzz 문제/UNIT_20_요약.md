@@ -1,4 +1,4 @@
-# FizzBuzz 문제
+# UNIT 20 FizzBuzz 문제
 FizzBuzz 문제의 규칙은 다음과 같습니다.
 1. 1에서 100까지 출력
 2. 3의 배수는 Fizz 출력
