@@ -42,5 +42,5 @@ for i in range(1, 101):
 - `'Fizz' * (i % 3 == 0)`: i가 3의 배수이면 `(i % 3 == 0)`이 True가 되므로 해당 식은 `'Fizz'`가 된다.
 - `'Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0)`: 3의 배수이면서 5의 배수인 경우, 식은 `'Fizz' + 'Buzz'`가 됨<br>
   문자열의 덧셈은 둘을 이어붙이는 것이므로 `'Fizz' + 'Buzz'` --> `'FizzBuzz'`가 됨
-- `'Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i` : 파이썬의 단락 평가를 이용함. [UNIT_8_요약](https://github.com/pandasneeze/python-practice/blob/main/UNIT_08%20%EB%B6%88%EA%B3%BC%20%EB%B9%84%EA%B5%90%2C%20%EB%85%BC%EB%A6%AC%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/UNIT_8_%EC%9A%94%EC%95%BD.md)<br>
+- `'Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i` : 파이썬의 [단락 평가](https://github.com/pandasneeze/python-practice/blob/main/UNIT_08%20%EB%B6%88%EA%B3%BC%20%EB%B9%84%EA%B5%90%2C%20%EB%85%BC%EB%A6%AC%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/UNIT_8_%EC%9A%94%EC%95%BD.md)를 이용함.<br>
 3 또는 5의 배수가 아닐 경우 해당 식이 `'' or i`가 되어서 i만 출력됨
