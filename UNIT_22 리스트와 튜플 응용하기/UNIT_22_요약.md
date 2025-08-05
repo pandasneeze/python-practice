@@ -212,7 +212,7 @@ True
 >>> b = a.copy()
 ```
 - `copy()` 메서드로 복사 시 `is` 연산자로 비교하면 False가 나오지만, 요소는 같으므로 `==` 연산자로 비교하면 True가 나옴
-[비교연산자](https://github.com/pandasneeze/python-practice/blob/main/UNIT_11%20%EC%8B%9C%ED%80%80%EC%8A%A4%20%EC%9E%90%EB%A3%8C%ED%98%95%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0/UNIT_11_%EC%9A%94%EC%95%BD.md#%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8A%A4)
+[비교연산자](https://github.com/pandasneeze/python-practice/blob/main/UNIT_08%20%EB%B6%88%EA%B3%BC%20%EB%B9%84%EA%B5%90%2C%20%EB%85%BC%EB%A6%AC%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/UNIT_8_%EC%9A%94%EC%95%BD.md#%EB%B9%84%EA%B5%90-%EC%97%B0%EC%82%B0%EC%9E%90)
 
 ## 반복문으로 모든 요소 출력
 
