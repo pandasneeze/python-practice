@@ -34,7 +34,7 @@ def print_numbers(*args):
     for i in args:
         print(i)
 ```
-- *(참고)*고정 인수와 가변 인수를 함께 사용하기
+- *(참고)* 고정 인수와 가변 인수를 함께 사용하기
   * 고정 매개변수를 먼저 지정, 그 다음 매개변수에 *를 붙여줌(가변 인수는 반드시 마지막에 와야함)
   ```python
   def print_numbers(a, *args):
